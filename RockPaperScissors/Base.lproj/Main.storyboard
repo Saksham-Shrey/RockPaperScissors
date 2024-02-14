@@ -48,6 +48,7 @@
                         <color key="tintColor" white="0.33333333329999998" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+                        <outlet property="GoButton" destination="AYz-KE-bBb" id="imI-Xo-HdF"/>
                         <outlet property="Player1" destination="NgN-Pb-cSJ" id="se2-dB-btN"/>
                         <outlet property="Player2" destination="SXE-dx-iig" id="7Dg-j1-o1H"/>
                     </connections>
