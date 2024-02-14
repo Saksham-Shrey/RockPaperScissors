@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         
         resetTimer?.invalidate()
 
-            resetTimer = Timer.scheduledTimer(withTimeInterval: 4.0, repeats: false) { [weak self] _ in
+            resetTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false) { [weak self] _ in
             
                 self?.resetViewState()
             }
