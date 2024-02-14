@@ -3,5 +3,4 @@
 <h2><a> Demo: </a></h2>
 <h3> iPhone: </h3>
 
-Uploading iPhoneDemo.MOV…
 
