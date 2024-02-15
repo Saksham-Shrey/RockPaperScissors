@@ -71,7 +71,6 @@ class ViewController: UIViewController {
         if(Player1.image == UIImage(imageLiteralResourceName: "RockInverted")){
                    
         }
-        
         resetTimer?.invalidate()
 
             resetTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false) { [weak self] _ in
