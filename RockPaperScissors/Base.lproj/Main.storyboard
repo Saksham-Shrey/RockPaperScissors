@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,9 +25,8 @@
                                 <rect key="frame" x="93" y="456" width="243" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYz-KE-bBb">
-                                <rect key="frame" x="149" y="719" width="131" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYz-KE-bBb">
+                                <rect key="frame" x="159.33333333333334" y="721.33333333333337" width="109.66666666666666" height="72.666666666666629"/>
                                 <color key="backgroundColor" red="0.31372549019607843" green="0.16807582543135516" blue="0.17195423827656436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go !!" titleAlignment="center">
@@ -46,6 +46,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="AccentColor"/>
                         <color key="tintColor" white="0.33333333329999998" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="AYz-KE-bBb" secondAttribute="bottom" constant="98" id="YO5-G5-JrC"/>
+                            <constraint firstItem="AYz-KE-bBb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yt4-IP-Nre"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="GoButton" destination="AYz-KE-bBb" id="imI-Xo-HdF"/>
@@ -61,7 +65,7 @@
     <resources>
         <image name="Paper" width="61.666667938232422" height="61.666667938232422"/>
         <namedColor name="AccentColor">
-            <color red="0.31372549019607843" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.31400001049041748" green="0.23499999940395355" blue="0.23499999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
